@@ -7,6 +7,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+button{
+    cursor: pointer;
+}
 .certo{
     width: 20px;
     height: 20px;
@@ -177,7 +180,7 @@ body{
 .finalizar-pedido{
     width: 364px;
     height: 61px;
-    background: #CBCBCB;
+    background-color: #CBCBCB;
     border: 0 solid #CBCBCB;
     border-radius: 50px;
 }
@@ -196,6 +199,9 @@ body{
 }
 .selecionado{
     box-shadow: inset 0px 0px 0px 5px #32B72F;
+}
+.finalizar {
+    background:rgba(50, 183, 47, 1);
 }
 .nome-titulo {
     font-family: 'Righteous', cursive;
